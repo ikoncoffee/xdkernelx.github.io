@@ -1,3 +1,27 @@
+commit 0b4ecb78e1422fe331372551210ab6ea11474179
+Author: Nestor J. Alvarez <grimreaper1169@gmail.com>
+Commit: Nestor J. Alvarez <grimreaper1169@gmail.com>
+
+    Removed background color, added under_construction.png, gave photo credit.
+
+commit cc3d7e2943d0b09484278f34b475769159a1b22b
+Author: Nestor J. Alvarez <grimreaper1169@gmail.com>
+Commit: Nestor J. Alvarez <grimreaper1169@gmail.com>
+
+    Added img/under_construction.png
+
+commit 63ed0c73c86907004b59ebff075adb435bb99b13
+Author: Nestor J. Alvarez <grimreaper1169@gmail.com>
+Commit: Nestor J. Alvarez <grimreaper1169@gmail.com>
+
+    Added styling for typewriter JS through footer tag.
+
+commit f7523e9e6738dea6b520057515fd99d0a759650d
+Author: Nestor J. Alvarez <grimreaper1169@gmail.com>
+Commit: Nestor J. Alvarez <grimreaper1169@gmail.com>
+
+    Updated CHANGELOG. Taking a break.
+
 commit 28acf2a506a6c2c9e8cf7a72a979d7be3c37b77d
 Author: Nestor J. Alvarez <grimreaper1169@gmail.com>
 Commit: Nestor J. Alvarez <grimreaper1169@gmail.com>
