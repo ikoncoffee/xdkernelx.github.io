@@ -8,6 +8,33 @@
   </head>
   <body>
     <h1 class="center">The dev Bootcamp Experience</h1>
+    <div style="display:flex;flex-direction:row;flex-wrap:wrap;z-index:101"></div>
 
+    <footer>
+      <!-- script provided by Fardjad Davari @ NPM. License included in source -->
+      <div>
+        <span id="typewriter"></span>
+        <blink style="background:#777;font-size:13px;font-family: courier, fixed;">&nbsp;</blink>
+      </div>
+
+    <script type="text/javascript" src="./js/typewriter-bundle.js"></script>
+    <script type="text/javascript">
+        quotes = [
+          "There is no I in Team.",
+          "YOLO, so make it count.",
+          "Mistakes are proof you are trying.",
+          "No one is perfect. Keep at it.",
+          "Aim High. Fly. Fight. Win!"
+        ]
+      var typewriter = require('typewriter');
+      var twSpan = document.getElementById('typewriter');
+      var tw = typewriter(twSpan).withAccuracy(95)
+                                 .withMinimumSpeed(5)
+                                 .withMaximumSpeed(18)
+                                 .build();
+      tw.waitRange(300, 800)
+        .type(quotes[Math.floor(Math.random() * quotes.length)])
+    </script>
+    </footer>
   </body>
 </html>
