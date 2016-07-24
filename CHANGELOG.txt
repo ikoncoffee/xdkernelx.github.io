@@ -1,3 +1,15 @@
+commit e46d2a47a40e92cfc775b280f979ab13742b74dd
+Author: Nestor J. Alvarez <grimreaper1169@gmail.com>
+Commit: Nestor J. Alvarez <grimreaper1169@gmail.com>
+
+    Added analysis of Business Insider site with a list.
+
+commit 00f07056448dc1b0b4a685079230ae514286a864
+Author: Nestor J. Alvarez <grimreaper1169@gmail.com>
+Commit: Nestor J. Alvarez <grimreaper1169@gmail.com>
+
+    Updated changelog. Site still crap.
+
 commit 0b4ecb78e1422fe331372551210ab6ea11474179
 Author: Nestor J. Alvarez <grimreaper1169@gmail.com>
 Commit: Nestor J. Alvarez <grimreaper1169@gmail.com>
