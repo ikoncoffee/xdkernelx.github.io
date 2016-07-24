@@ -3,11 +3,58 @@
   <head>
     <title>The dev Bootcamp Experience</title>
     <style>
-      h1.center {text-align: center;}
+      h1.center {text-align: center; font-family: courier;}
+      nav {
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        font-size: 120%;
+      }
+      p {
+        margin: auto;
+        text-indent: 50px;
+        width: 50%;
+      }
     </style>
   </head>
-  <body>
+  <body bgcolor="#E6E6FA">
     <h1 class="center">The dev Bootcamp Experience</h1>
 
+    <nav style="center">
+      <a href="./about.html">About Me</a> |
+      <a href="./phase0/index.html">Phase 0</a> |
+      <a href ="./contact.html">Contact</a>
+    </nav>
+    <br />
+    <p style="font-size: 150%;">
+      My devBootcamp cohort is the <b>SF Bobolinks of 2016</b>. We started doing the bare essentials of Web development on July 11, 2016. This page is intended for my ongoing training in Web development. As you can see from this, I am going to be honest and admit that I know very little of Web page formatting. This page looks terrible, but we all have to start somewhere. Thank you for your visit and feel free to check the "Phase 0" section. 
+    </p>
+
+    <footer>
+      <!-- script provided by Fardjad Davari @ NPM. License included in source -->
+      <div>
+        <span id="typewriter"></span>
+        <blink style="background:#777;font-size:13px;font-family: courier, fixed;">&nbsp;</blink>
+      </div>
+
+    <script type="text/javascript" src="./js/typewriter-bundle.js"></script>
+    <script type="text/javascript">
+        quotes = [
+          "There is no I in Team.",
+          "YOLO, so make it count.",
+          "Mistakes are proof you are trying.",
+          "No one is perfect. Keep at it.",
+          "Aim High. Fly. Fight. Win!"
+        ]
+      var typewriter = require('typewriter');
+      var twSpan = document.getElementById('typewriter');
+      var tw = typewriter(twSpan).withAccuracy(95)
+                                 .withMinimumSpeed(5)
+                                 .withMaximumSpeed(18)
+                                 .build();
+      tw.waitRange(300, 800)
+        .type(quotes[Math.floor(Math.random() * quotes.length)])
+    </script>
+    </footer>
   </body>
 </html>
