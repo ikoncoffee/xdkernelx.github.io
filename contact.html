@@ -1,9 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></title>
+    <title>Contact Info</title>
+    <style>
+      h1.center {text-align: center; font-family: courier;}
+
+      table, th, td {
+        margin: auto;
+        width: 30%;
+        border: 1px solid black;
+        text-align: center;
+      }
+
+      td.hidden {opacity:0;}
+      td.hidden:hover {opacity:1;}
+
+      nav {
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        font-size: 120%;
+      }
+
+      caption {
+        caption-side: bottom;
+      }
+
+      body {background-color: #A9A9A9;}
+    </style>
   </head>
   <body>
+    <h1 class="center">Contact Info</h1>
 
+    <nav style="center">
+      <a href="./index.html">Main</a> |
+      <a href="./phase0/index.html">Phase 0</a> |
+      <a href ="./about.html">About Me</a>
+    </nav>
+
+    <div>
+      <br />
+      <table>
+        <caption>Hover over e-mail and phone to reveal</caption>
+        <tr>
+          <th>Name</th>
+          <th>E-Mail</th>
+          <th>Phone No.</th>
+        </tr>
+        <tr>
+          <td>Nestor A.</td>
+          <td class="hidden">grimreaper1169@gmail.com</td>
+          <td class="hidden">(562)-896-8298</td>
+        </tr>
+      </table>
+    </div>
+
+    <footer>
+      <!-- script provided by Fardjad Davari @ NPM. License included in source -->
+    <div>
+      <span id="typewriter"></span>
+      ||
+    </div>
+
+    <script type="text/javascript" src="./js/typewriter-bundle.js"></script>
+    <script type="text/javascript">
+        quotes = [
+          "There is no I in Team.",
+          "YOLO, so make it count.",
+          "Mistakes are proof you are trying.",
+          "No one is perfect. Keep at it.",
+          "Aim High. Fly. Fight. Win!"
+        ]
+      var typewriter = require('typewriter');
+      var twSpan = document.getElementById('typewriter');
+      var tw = typewriter(twSpan).withAccuracy(95)
+                                 .withMinimumSpeed(5)
+                                 .withMaximumSpeed(18)
+                                 .build();
+      tw.waitRange(300, 800)
+        .type(quotes[Math.floor(Math.random() * quotes.length)])
+    </script>
+    </footer>
   </body>
 </html>
