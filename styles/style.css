@@ -1,0 +1,57 @@
+h1.center {text-align: center; font-family: courier;}
+nav {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 120%;
+}
+
+.main {
+  margin: auto;
+  text-indent: 50px;
+  font-size: 150%;
+  width: 50%;
+}
+.sub {
+  margin: auto;
+  width: 50%;
+}
+
+.negative {
+  color: red;
+}
+
+.center {text-align: center;}
+
+p {
+  margin: auto;
+  width: 50%;
+  text-indent: 50px;
+}
+
+img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+table, th, td {
+  margin: auto;
+  width: 30%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+td.hidden {opacity:0;}
+td.hidden:hover {opacity:1;}
+
+caption {
+  caption-side: bottom;
+}
+
+footer {
+  color: red;
+  font-family: courier;
+  font-size: 140%;
+  font-weight: bold;
+}
