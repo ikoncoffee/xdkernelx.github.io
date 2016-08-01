@@ -61,3 +61,19 @@ footer {
   font-size: 140%;
   font-weight: bold;
 }
+
+  @media screen and (max-width: 720px){
+
+    footer{
+      visibility: hidden;
+    }
+
+  }
+
+  @media screen and (max-width: 450px){
+
+    .responsive {
+        display: none;
+    }
+
+  }
