@@ -1,4 +1,4 @@
-.index_main {
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -6,5 +6,6 @@
 }
 
 p {
-  font-size: 30px; 
+  font-size: 30px;
+  text-aling: center;
 }
