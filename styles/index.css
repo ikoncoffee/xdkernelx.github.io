@@ -5,7 +5,12 @@
   width: 50%;
 }
 
+.caption {
+ 
+  text-align: center;
+  
+}
+
 p {
   font-size: 30px;
-  text-align: center;
 }
