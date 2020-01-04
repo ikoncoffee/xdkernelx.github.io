@@ -5,6 +5,15 @@
   width: 50%;
 }
 
+.main_index {
+  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
 .caption {
  
   text-align: center;
